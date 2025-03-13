@@ -35,4 +35,5 @@ One of above are unit cell -> Which are different, depending on type of cell the
 So, 3 types of Unit Cell exists -> Each with 3 color, 2 color or 1 color (Middle unchangeable color)
 
 
+
                         
