@@ -202,37 +202,37 @@ public class RubikCube {
 
     public static RubikCubeRowBuilder getStandardRubikCube() {
         RubikCubeRowBuilder r1 = new RubikCubeRowBuilder();
-        SideRubikCubeCell s11 = new SideRubikCubeCell(new EdgeRubikCubeUnitCell("red", "white", "blue"),
-                new MidRubikCubeUnitCell("white", "blue"),
-                new EdgeRubikCubeUnitCell("orange", "white", "blue"));
+        SideRubikCubeCell s11 = new SideRubikCubeCell(new EdgeRubikCubeUnitCell("red", "white", "green"),
+                new MidRubikCubeUnitCell("white", "green"),
+                new EdgeRubikCubeUnitCell("orange", "white", "green"));
         MidRubikCubeCell m11 = new MidRubikCubeCell(new MidRubikCubeUnitCell("white", "red"),
                 new CenterRubikCubeUnitCell("white"),
                 new MidRubikCubeUnitCell("white", "orange"));
-        SideRubikCubeCell s13 = new SideRubikCubeCell(new EdgeRubikCubeUnitCell("red", "white", "green"),
-                new MidRubikCubeUnitCell("white", "green"),
-                new EdgeRubikCubeUnitCell("orange", "white", "green"));
+        SideRubikCubeCell s13 = new SideRubikCubeCell(new EdgeRubikCubeUnitCell("red", "white", "blue"),
+                new MidRubikCubeUnitCell("white", "blue"),
+                new EdgeRubikCubeUnitCell("orange", "white", "blue"));
 
         SideRubikCubeRow rr1 = new SideRubikCubeRow(s11, m11, s13);
 
-        MidRubikCubeCell m21 = new MidRubikCubeCell(new MidRubikCubeUnitCell("red", "blue"),
-                new CenterRubikCubeUnitCell("blue"),
-                new MidRubikCubeUnitCell("orange", "blue"));
-        CenterRubikCubeCell c21 = new CenterRubikCubeCell(new CenterRubikCubeUnitCell("red"), new CenterRubikCubeUnitCell("orange"));
-        MidRubikCubeCell m22 = new MidRubikCubeCell(new MidRubikCubeUnitCell("red", "green"),
+        MidRubikCubeCell m21 = new MidRubikCubeCell(new MidRubikCubeUnitCell("red", "green"),
                 new CenterRubikCubeUnitCell("green"),
                 new MidRubikCubeUnitCell("orange", "green"));
+        CenterRubikCubeCell c21 = new CenterRubikCubeCell(new CenterRubikCubeUnitCell("red"), new CenterRubikCubeUnitCell("orange"));
+        MidRubikCubeCell m22 = new MidRubikCubeCell(new MidRubikCubeUnitCell("red", "blue"),
+                new CenterRubikCubeUnitCell("blue"),
+                new MidRubikCubeUnitCell("orange", "blue"));
 
         MidRubikCubeRow rr2 = new MidRubikCubeRow(m21, c21, m22);
 
-        SideRubikCubeCell s31 = new SideRubikCubeCell(new EdgeRubikCubeUnitCell("red", "yellow", "blue"),
-                new MidRubikCubeUnitCell("yellow", "blue"),
-                new EdgeRubikCubeUnitCell("orange", "yellow", "blue"));
+        SideRubikCubeCell s31 = new SideRubikCubeCell(new EdgeRubikCubeUnitCell("red", "yellow", "green"),
+                new MidRubikCubeUnitCell("yellow", "green"),
+                new EdgeRubikCubeUnitCell("orange", "yellow", "green"));
         MidRubikCubeCell m31 = new MidRubikCubeCell(new MidRubikCubeUnitCell("yellow", "red"),
                 new CenterRubikCubeUnitCell("yellow"),
                 new MidRubikCubeUnitCell("yellow", "orange"));
-        SideRubikCubeCell s33 = new SideRubikCubeCell(new EdgeRubikCubeUnitCell("red", "yellow", "green"),
-                new MidRubikCubeUnitCell("yellow", "green"),
-                new EdgeRubikCubeUnitCell("orange", "yellow", "green"));
+        SideRubikCubeCell s33 = new SideRubikCubeCell(new EdgeRubikCubeUnitCell("red", "yellow", "blue"),
+                new MidRubikCubeUnitCell("yellow", "blue"),
+                new EdgeRubikCubeUnitCell("orange", "yellow", "blue"));
 
         SideRubikCubeRow rr3 = new SideRubikCubeRow(s31, m31, s33);
 

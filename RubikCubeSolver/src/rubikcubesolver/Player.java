@@ -20,7 +20,7 @@ public class Player {
         String input;
 
         do {
-            System.out.print("Enter move (e.g., t c, f cc) or 'exit' to quit: ");
+            System.out.print("Enter move (e.g.,(f/b/r/l/t/bt) t c, f cc) or 'exit' to quit: ");
             input = scanner.nextLine().trim().toLowerCase();
 
             if (input.equals("exit")) break;
