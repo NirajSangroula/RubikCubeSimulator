@@ -34,6 +34,17 @@ One of above are unit cell -> Which are different, depending on type of cell the
 
 So, 3 types of Unit Cell exists -> Each with 3 color, 2 color or 1 color (Middle unchangeable color)
 
+# See player demo
+![image](https://github.com/user-attachments/assets/e1ca6db9-5fc2-4cec-8aab-72f189fd9562)
+![image](https://github.com/user-attachments/assets/7677fac1-2e14-48c8-9376-60e4bda2ac69)  ![image](https://github.com/user-attachments/assets/60f3f634-6dac-4224-8fb8-8ce01484dae5)
+! after input t c => Top Clockwise rotation
+![image](https://github.com/user-attachments/assets/5841ef06-1b59-4b42-9b33-6ff8f6e8546b)
+![image](https://github.com/user-attachments/assets/748e40fd-f4a7-4bbf-82e4-8af4bf15f117)
+
+After f c and r c commands -> Face C and Right Clockwise
+![image](https://github.com/user-attachments/assets/8e5cfd41-581e-4dc4-adfd-1c3dc7a07a93)
+![image](https://github.com/user-attachments/assets/d51cc9b5-a6a6-4f70-a325-5d9281fcf338)
+
 
 
                         
