@@ -15,4 +15,18 @@ public class SideRubikCubeRow extends RubikCubeRow implements Cloneable{
         midCell = m1;
         bottomCell = s2;
     }
+    @Override
+    public String toString() {
+        String top = topCell.cell1.side2.getColor().charAt(0) + " "
+                + topCell.cell2.side2.getColor().charAt(0) + " "
+                + topCell.cell3.side2.getColor().charAt(0) + "\n";
+        String mid = midCell.cell1.side2.getColor().charAt(0) + " "
+                + midCell.cell2.side2.getColor().charAt(0) + " "
+                + midCell.cell3.side2.getColor().charAt(0) + "\n";
+        String bottom = bottomCell.cell1.side2.getColor().charAt(0) + " "
+                + bottomCell.cell2.side2.getColor().charAt(0) + " "
+                + bottomCell.cell3.side2.getColor().charAt(0) + "\n";
+
+        return top + mid + bottom;
+    }
 }

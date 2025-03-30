@@ -16,6 +16,9 @@ public class RubikCube {
     public MidRubikCubeRow face2, side2, top2;
 
     public void build() {
+        /**
+         * We only need to pass 3 faces -> This is overkilling
+         */
         face1 = rowBuilder.face1;
         face2 = rowBuilder.face2;
         face3 = rowBuilder.face3;
