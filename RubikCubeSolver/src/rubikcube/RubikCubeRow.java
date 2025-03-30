@@ -6,7 +6,6 @@
 package rubikcube;
 
 import java.util.ArrayList;
-import jdk.nashorn.internal.runtime.arrays.ArrayLikeIterator;
 
 /**
  *
@@ -39,7 +38,11 @@ public class RubikCubeRow {
     public RubikCubeCell getBottomCell() {
         return bottomCell;
     }
-    
+
+    /**
+     * Returns the top cell when cube is turned Clockwise -> Like a Face
+     * @return
+     */
     public RubikCubeCell getColumnCell1() {
         return new RubikCubeCell(bottomCell.cell1.getSwappedSides(), midCell.cell1, topCell.cell1.getSwappedSides());
     }

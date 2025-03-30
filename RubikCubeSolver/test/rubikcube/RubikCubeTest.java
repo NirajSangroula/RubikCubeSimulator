@@ -5,9 +5,6 @@
  */
 package rubikcube;
 
-import com.sun.jmx.snmp.IPAcl.SnmpAcl;
-import com.sun.org.apache.bcel.internal.generic.LUSHR;
-import jdk.nashorn.internal.runtime.logging.Logger;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
