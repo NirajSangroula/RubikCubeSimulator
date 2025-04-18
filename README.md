@@ -5,7 +5,7 @@ in an interesting fashion as they are turned in different directions. For this p
 other algorithms in this basic Rubik's Cube framework.
 
 # Installation
-Clone this project, and simply run Player.java file
+Clone this project, and simply run Player.java file 
 
 # Rubik Cube
 It is an entity, a whole, that consists of:
